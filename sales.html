@@ -24,7 +24,9 @@ ul {
 body{
     background-color: lightblue;
 }
-
+fieldset {
+  text-align: center;
+}
 
     </style>
   </head>
@@ -69,5 +71,22 @@ body{
   
  <script src="app.js"></script>
 
+  
+  <fieldset>
+    New Cookie Stand<br>
+  <label for="location">Your location?</label>
+  <input type="text" id="location">
+  <br>
+  <label for="minCustomers">Minimum customers per hour:</label>
+  <input type="number" id="minCustomers">
+  <br>
+  <label for="maxCustomers">Maximum customers per hour:</label>
+  <input type="number" id="maxCustomers">
+  <br>
+  <label for="avgCookieSale">Average cookies per customer:</label>
+  <input type="number" step="0.1" id="avgCookieSale">
+  <br>
+  <button>Add your shop!</button>
+  
 </body>
 </html>
