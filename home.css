@@ -1,0 +1,27 @@
+nav {
+    text-align: center;
+     color:darkblue
+ }
+ h1 {
+    text-align: center;
+color:dodgerblue
+ }
+body{
+    background-color: lightblue;
+}
+p {
+    text-align: center;
+    color:rgb(50, 121, 121);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h3 {
+    text-align: center;
+color:rgb(0, 128, 255);
+font-family:Georgia, 'Times New Roman', Times, serif
+ }
+
+ h2 {
+    text-align: center;
+color:rgb(47, 94, 141);
+font-family: Georgia, 'Times New Roman', Times, serif
+ }
